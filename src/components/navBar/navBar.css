@@ -1,0 +1,16 @@
+header{
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.cart-icon img{
+    width: 40%;
+}
