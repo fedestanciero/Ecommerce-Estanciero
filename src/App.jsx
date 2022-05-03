@@ -1,13 +1,16 @@
 import './App.css'
-import NavBar from "./components/navBar/NavBar"
-import './components/navBar/navBar.css'
+import NavBar from "./components/NavBar"
+import ItemListContainer from "./components/ItemListContainer"
 
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'bootstrap';
+
+export default function App() {
   return (
-    <div>
+    <>
     <NavBar/>
-    </div>
+    <ItemListContainer productos={"Aquí van los productos"} />
+    </>
   )
 }
 
-export default App
