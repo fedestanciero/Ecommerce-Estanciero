@@ -1,5 +1,4 @@
 import React from 'react';
-import "./styles/NavBar.css"
 import CartWidget from "./CartWidget"
 
 export default function NavBar () {
