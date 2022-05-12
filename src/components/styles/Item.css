@@ -1,0 +1,26 @@
+.item-card{
+    padding: 25px;
+    box-shadow: rgb(213, 213, 213) 0px 0px 5px 0px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-imagen{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title{
+    font-size: 1.2vw;
+    height: 60px;
+}
+
+.product-price{
+    font-size: 1.5vw;
+}
