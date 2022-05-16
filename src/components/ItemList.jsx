@@ -1,5 +1,4 @@
 import Item from "./Item"
-import ItemListContainer from "./ItemListContainer"
 
 export default function ItemList({product}){
     console.log(product)

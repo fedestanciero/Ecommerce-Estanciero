@@ -13,12 +13,13 @@ import {useState, useEffect} from "react"
 //     )
 // }
 
-const products = [
+export const products = [
     {
         "nombre": "Funko Pop! Marvel Absolute Carnage",
         "precio": 7600,
         "categoria": "Funko Pop!",
         "id": 1,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": true,
         "imagen": "../../imagenes/productos/funko-pop_marvel_absolute-carnage.jpg"
@@ -28,6 +29,7 @@ const products = [
         "precio": 3500,
         "categoria": "Funko Pop!",
         "id": 2,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": true,
         "imagen": "../../imagenes/productos/funko-pop_marvel_miles-morales.jpg"
@@ -37,6 +39,7 @@ const products = [
         "precio": 3300,
         "categoria": "Funko Pop!",
         "id": 3,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": false,
         "imagen": "../../imagenes/productos/funko-pop_marvel_ironheart.jpg"
@@ -46,6 +49,7 @@ const products = [
         "precio": 4000,
         "categoria": "Funko Pop!",
         "id": 4,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": false,
         "imagen": "../../imagenes/productos/funko-pop_marvel_thanos.jpg"
@@ -55,6 +59,7 @@ const products = [
         "precio": 6000,
         "categoria": "Funko Pop!",
         "id": 5,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": false,
         "imagen": "../../imagenes/productos/funko-pop_marvel_hulk_deluxe.jpg"
@@ -64,6 +69,7 @@ const products = [
         "precio": 7000,
         "categoria": "Funko Pop!",
         "id": 6,
+        "stock": 5,
         "licencia": "Marvel",
         "destacado": true,
         "imagen": "../../imagenes/productos/funko-pop_marvel_thanos-80-years.jpg"

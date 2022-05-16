@@ -2,8 +2,10 @@ import { VscAdd } from "react-icons/vsc";
 import { VscChromeMinimize } from "react-icons/vsc";
 import { useState } from "react";
 
-export default function ItemCount({stock, initial, onAdd}){
+export default function ItemCount({stock}){
     
+    const initial = 1;
+
     const [count, setCount] = useState(initial);
 
     const agregarCantidad = () => {
@@ -19,14 +21,11 @@ export default function ItemCount({stock, initial, onAdd}){
     }
 
     function addToCart() {
-        onAdd(count);
+        alert(`Agregaste ${count} unidades al carrito`);
     }
 
     return(
         <div className="container itemCount">
-            <div className="row itemTitle text-center">
-                <span>Nombre del producto</span>
-            </div>
             <div className="row itemQuantity">
                 <div onClick={restarCantidad} className='col-2 d-flex justify-content-center align-items-center cursor-pointer'>
                     <VscChromeMinimize/>

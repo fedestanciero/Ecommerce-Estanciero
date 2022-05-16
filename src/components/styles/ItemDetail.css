@@ -1,0 +1,13 @@
+.item-detail-informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item-detail-titulo{
+    font-size: 2vw;
+}
+
+.item-detail-precio{
+    font-size: 2vw;
+}
